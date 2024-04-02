@@ -1,0 +1,22 @@
+.header {
+  text-align: center;
+  font-size: 3rem;
+  line-height: 4rem;
+  z-index: 999;
+  background: #f0f0f0;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
