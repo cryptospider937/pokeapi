@@ -9,6 +9,11 @@
     padding: 30px 20px;
     box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
+    height: 510px;
+}
+
+.loading {
+    opacity: 0.5;
 }
 
 .card img {
